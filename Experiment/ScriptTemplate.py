@@ -20,3 +20,4 @@ driver.maximize_window()
 initPage = "http://truonghocdang.weebly.com"
 
 # ----------------------------------------------------------------------------------------------------------
+driver.get(initPage)
