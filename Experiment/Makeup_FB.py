@@ -23,8 +23,6 @@ emailFieldElement.clear()
 illustrator(driver, emailFieldElement)
 emailFieldElement.send_keys("dangdanghpe@gmail.com")
 
-
-
 loginButtonElement = \
     WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_id("loginbutton"))
 illustrator(driver, loginButtonElement)
