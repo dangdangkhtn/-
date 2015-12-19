@@ -19,14 +19,5 @@ driver.maximize_window()
 
 driver.get("http://www.w3schools.com/css/")
 
-emailFieldElement = WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_id("email"))
-emailFieldElement.clear()
-emailFieldElement.send_keys("dangdanghpe@gmail.com")
-
-
-loginButtonElement = \
-    WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_id("loginbutton"))
-illustrator(driver, loginButtonElement)
-loginButtonElement.click()
 
 # ----------------------------------------------------------------------------------------------------------
